@@ -49,6 +49,8 @@ Desenvolver uma **API RESTful** para processamento de transações financeiras e
 | Armazenamento    | `ConcurrentHashMap`    | Thread-safe para acesso concorrente  |
 | Limpeza          | `ScheduledExecutorService` | Remoção automática de transações expiradas |
 
+---
+
 ## 🚀 Funcionalidades Principais
 
 ### 1. **Processamento de Transações**  
@@ -64,6 +66,8 @@ Desenvolver uma **API RESTful** para processamento de transações financeiras e
 ### 3. **Gestão de Dados**  
 🧹 Endpoint `DELETE /transacao` para reset total  
 
+---
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos
@@ -76,6 +80,8 @@ Desenvolver uma **API RESTful** para processamento de transações financeiras e
    ```bash
    git clone https://github.com/KaiqueBorgesdeOliveira/desafio_itau_kaique
    cd desafio_itau_kaique
+
+---
 
 ## 🌟 Considerações Finais
 
@@ -94,3 +100,5 @@ public class TransacaoController {
         // Lógica concisa e eficiente
     }
 }
+
+---
